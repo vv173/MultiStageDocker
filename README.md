@@ -53,3 +53,8 @@ If the application is running correctly, you should receive the following respon
 ```
 
 Or you can use the ```docker ps``` command and check the health status.
+
+
+<sub>
+You can find the version of this application created with Docker compose and ReactJS on the develop branch.
+</sub>
