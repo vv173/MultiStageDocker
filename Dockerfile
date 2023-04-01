@@ -24,6 +24,9 @@ RUN npm install
 
 FROM node:16.20.0-alpine3.17
 
+ARG VERSION
+ENV VERSION=${VERSION:-v1.0.0}
+
 RUN apk add --update --no-cache curl
 
 USER node
