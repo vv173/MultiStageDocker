@@ -1,4 +1,4 @@
-### dockerizing-nodejs-with-multistage is a sample project that demonstrates how to use multi-stage builds in Docker to create optimized and smaller Docker images. This project uses Node.js to create a simple web application and package it into a Docker image.
+#### dockerizing-nodejs-with-multistage is a sample project that demonstrates how to use multi-stage builds in Docker to create optimized and smaller Docker images. This project uses Node.js to create a simple web application and package it into a Docker image. That project also shows how to build docker images from scratch.
 
 ***Prerequisites***
 
