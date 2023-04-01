@@ -8,5 +8,10 @@ RUN apk update && \
                         npm=9.1.2-r0 && \
     rm -rf /etc/apk/cache
 
+RUN addgroup -S node && \
+    adduser -S node -G node
+
+USER node
+
 CMD ["/bin/sh"]
 
